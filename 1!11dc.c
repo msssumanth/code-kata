@@ -15,7 +15,7 @@ int main()
     {
        if((i<j<k)&&a[i]<a[j]&&a[k]>a[j]&&a[k]>a[i])
         {
-           printf("%d %d %d\t",a[i],a[j],a[k]);
+           
            b++;
         }
     }

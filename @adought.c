@@ -5,7 +5,7 @@ int main()
      scanf("%d %d %d",&n,&a,&b);
 j=a+b;
 if((n%j)==0)
-printf("yes");
+printf("YES");
 else
-printf("no");
+printf("NO");
 }

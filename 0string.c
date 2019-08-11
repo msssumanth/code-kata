@@ -10,7 +10,7 @@ int main()
     }
     for(i=0;i<26;i++)
     {
-        if(h[i]>2)
+        if(h[i]>=2)
         {
           printf("%c",i+97); 
           k++;

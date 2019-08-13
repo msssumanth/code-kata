@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 int main()
 {
@@ -13,16 +14,15 @@ int main()
        else
        h[(s[i]-65)+26]+=1;
    }
-   for(i=0;i<=52;i++)
+   for(i=52;i>=0;i--)
     {
    if(h[i]==1)
-   {
-       if(i>=27&&i<=52)
-        {
-            printf("%c",i+65-26);
-        }
+   {if((i>=27&&i<=52))
+        printf("%c",i+65-26);
         else
-        printf("%c",i+97);
+        {
+            printf("%c",i+97);
+        }
       
     }}
       return 0;
